@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 const Mono = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000, once: true });
+    Aos.init({ duration: 1000, once: false });
   }, []);
   return (
     <>

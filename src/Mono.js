@@ -1,18 +1,19 @@
 import "./Mono.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import techImage1 from "./images/main.png";
-import techImage2 from "./images/tech-image-2.png";
-import techImage3 from "./images/tech-image-3.webp";
-import techImage4 from "./images/tech-image-4.png";
-import analysis from "./images/analysis3.png";
-import prediction from "./images/analysis4.png";
-import security from "./images/security.png";
+import "./slide.js"
+import techImage1 from "./images/mainC.png";
+import techImage2 from "./images/tech-image-2C.png";
+import techImage3 from "./images/tech-image-3C.webp";
+import techImage4 from "./images/tech-image-4C.png";
+import analysis from "./images/analysis3C.png";
+import prediction from "./images/analysis4C.png";
+import security from "./images/securityC.png";
 import { useEffect } from "react";
 
 const Mono = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000, once: false });
+    Aos.init({ duration: 1000, once: true });
   }, []);
   return (
     <>

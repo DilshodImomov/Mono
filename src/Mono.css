@@ -159,7 +159,7 @@ footer .block {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1124px) {
     section {
-        min-height: 500px;
+        min-width: 500px;
     }
     header .body {
         padding: 0px 20px;
@@ -268,8 +268,12 @@ footer .block {
    .text p, .body .text p, .block p{
         font-size: .9rem;
     }
-    .techImage1, .analysisImg, .techImage4, .techImage2, .techImage3, .security {
+    .techImage1, .techImage4, .techImage2, .techImage3 {
         width: 300px;
+        height: auto;
+    }
+    .analysisImg, .security {
+        width: 270px;
         height: auto;
     }
     .techImage2 {

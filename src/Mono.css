@@ -158,6 +158,9 @@ footer .block {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1124px) {
+    img {
+        min-width: 500px;
+    }
     header .body {
         padding: 0px 20px;
     }
@@ -169,6 +172,9 @@ footer .block {
 } 
 
 @media only screen and (max-width: 1000px) {
+    img {
+        min-width: 400px;
+    }
     .text h1 {
         font-size: 1.8rem;
     }
@@ -178,6 +184,9 @@ footer .block {
     }
 } 
 @media only screen and (max-width: 767px) {
+    img {
+        min-width: 500px;
+    }
     section, header {
         margin-bottom: 2rem;
     }
@@ -238,6 +247,9 @@ footer .block {
 
 }
 @media only screen and (max-width: 500px) {
+    img {
+        min-width: 400px;
+    }
     .text h1 {
         font-size: 1.8rem;
     }
@@ -247,6 +259,9 @@ footer .block {
     }
 } 
 @media only screen and (max-width: 400px) {
+    img {
+        min-width: 300px;
+    }
     .text h1 {
         font-size: 1.5rem;
     }

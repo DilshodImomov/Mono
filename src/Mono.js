@@ -54,7 +54,7 @@ const Mono = () => {
       </div>
     </section>
     <section>
-      <div data-aos="slide-left" data-aos-duration="1000" className='block-left white'>
+      <div data-aos="slide-left" data-aos-duration="1000" className='block-left white under2'>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >High-Level Analysis</h1>
           <p data-aos="fade-up" data-aos-delay="500" >Our analytical tools enable you to gain insights into your business's performance. We help you compare your monthly, daily, and yearly earnings with industry benchmarks, enabling you to assess your growth rate and identify areas for improvement.</p>

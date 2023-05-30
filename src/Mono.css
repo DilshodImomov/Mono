@@ -31,11 +31,11 @@ header .body {
     margin: 30px 0px;
     font-size: 2.75rem;
 }
-body .text p {
+.body .text p {
     font-size: 1.1rem;
     color: rgb(191, 219, 254)
 }
-.body .techImage1 {
+.techImage1 {
     width: auto;
     height: 600px;
     margin-bottom: -70px;
@@ -102,6 +102,10 @@ body .text p {
     position: relative;
     z-index: -1;
 }
+.under2 {
+    position: relative;
+    z-index: -2;
+}
 
 .techImage4 {
     width: auto;
@@ -151,3 +155,109 @@ footer .block {
 [data-aos=slideLeft].aos-animate {
     transition-duration: 1s;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1124px) {
+    header .body {
+        padding: 0px 20px;
+    }
+    .techImage1, .analysisImg, .techImage4, .techImage2, .techImage3, .security {
+        width: 500px;
+        height: auto;
+    }
+
+} 
+
+@media only screen and (max-width: 1000px) {
+    .text h1 {
+        font-size: 1.8rem;
+    }
+    .techImage1, .analysisImg, .techImage4, .techImage2, .techImage3, .security {
+        width: 400px;
+        height: auto;
+    }
+} 
+@media only screen and (max-width: 767px) {
+    section, header {
+        margin-bottom: 2rem;
+    }
+    .body {
+        flex-direction: column;
+        position: relative;
+        z-index: 100;
+    }
+    .body h1 {
+        font-size: 2.75rem;
+    }
+    .text {
+        width: 100%;
+        margin-top: 0;
+    }
+    .techImage1 {
+        width: 500px;
+        height: auto;
+        margin-bottom: -70;
+    }
+    .block-left {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .block-right {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    .techImage2 {
+        width: 500px;
+        height: auto;
+        margin-top: -50px;
+    }
+    .techImage3 {
+        width: 500px;
+        height: auto;
+        margin-bottom: -80px;
+        margin-top: -50px;
+    }
+    .techImage4 {
+        position: relative;
+        z-index: 100;
+        width: 500px;
+        height: auto;
+        margin-bottom: -120px;
+    }
+
+    .analysisImg {
+        margin-top: 0;
+        width: 500px;
+        height: auto;
+    }
+    .security {
+        margin-top: 0;
+        width: 500px;
+        height: auto;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .text h1 {
+        font-size: 1.8rem;
+    }
+    .techImage1, .analysisImg, .techImage4, .techImage2, .techImage3, .security {
+        width: 400px;
+        height: auto;
+    }
+} 
+@media only screen and (max-width: 400px) {
+    .text h1 {
+        font-size: 1.5rem;
+    }
+   .text p, .body .text p, .block p{
+        font-size: .9rem;
+    }
+    .techImage1, .analysisImg, .techImage4, .techImage2, .techImage3, .security {
+        width: 300px;
+        height: auto;
+    }
+    .techImage2 {
+        margin-top: 0;
+    }
+} 

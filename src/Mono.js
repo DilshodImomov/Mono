@@ -16,9 +16,9 @@ const Mono = () => {
     Aos.init({ duration: 1000, once: true });
   }, []);
   return (
-    <>
+    <div className="wrapper">
     <header>
-      <div data-aos="slide-left" data-aos-duration="1000" className='body'>
+      <div data-aos="fade-left" data-aos-duration="1000" className='body'>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Mono Technologies</h1>
           <p data-aos="fade-up" data-aos-delay="600" >Our primary objective is to expedite the growth of businesses in Tajikistan through the integration of cutting-edge technologies. We offer a comprehensive range of services tailored to meet the specific needs of our clients</p>
@@ -27,7 +27,7 @@ const Mono = () => {
       </div>
     </header>
     <section>
-      <div data-aos="slide-right" data-aos-duration="1000" className='block-right white'>
+      <div data-aos="fade-right" data-aos-duration="1000" className='block-right white'>
         <img data-aos="fade-up-right" data-aos-delay="500" className="techImage2" src={techImage2}></img>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Personal Website Development</h1>
@@ -36,16 +36,16 @@ const Mono = () => {
       </div>
     </section>
     <section>
-      <div data-aos="slide-left" data-aos-duration="1000" className='block-left dark-blue'>
+      <div data-aos="fade-left" data-aos-duration="1000" className='block-left dark-blue'>
         <div className="text">
           <h1 data-aos="fade-up"  data-aos-delay="500" >Business Designing and Social Media Advertising</h1>
           <p data-aos="fade-up" data-aos-delay="600" >Our team assists you in devising effective strategies for social media advertising, leveraging the potential of various platforms to reach your target audience and boost your business's online visibility.</p>
         </div>
-        <img data-aos="slide-up" data-aos-duration="2000" data-aos-delay="1000" className="techImage3" src={techImage3}></img>
+        <img data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" className="techImage3" src={techImage3}></img>
       </div>
     </section>
     <section>
-      <div data-aos="slide-right" data-aos-duration="1000" className='block-right white under'>
+      <div data-aos="fade-right" data-aos-duration="1000" className='block-right white under'>
         <img data-aos="fade-right" data-aos-delay="800" data-aos-duration="1500" className="techImage4" src={techImage4}></img>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Staff and Work Management System</h1>
@@ -54,7 +54,7 @@ const Mono = () => {
       </div>
     </section>
     <section>
-      <div data-aos="slide-left" data-aos-duration="1000" className='block-left white under2'>
+      <div data-aos="fade-left" data-aos-duration="1000" className='block-left white under2'>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >High-Level Analysis</h1>
           <p data-aos="fade-up" data-aos-delay="600" >Our analytical tools enable you to gain insights into your business's performance. We help you compare your monthly, daily, and yearly earnings with industry benchmarks, enabling you to assess your growth rate and identify areas for improvement.</p>
@@ -63,7 +63,7 @@ const Mono = () => {
       </div>
     </section>
     <section>
-      <div data-aos="slide-right" data-aos-duration="1000" className='block-right blue'>
+      <div data-aos="fade-right" data-aos-duration="1000" className='block-right blue'>
         <img data-aos="fade-right"  data-aos-delay="800" className="analysisImg" src={prediction}></img>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Recommendation and Predictive Analysis</h1>
@@ -72,7 +72,7 @@ const Mono = () => {
       </div>
     </section>
     <section>
-      <div data-aos="slide-left" data-aos-duration="1000" className='block-left white'>
+      <div data-aos="fade-left" data-aos-duration="1000" className='block-left white'>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Data Security</h1>
           <p data-aos="fade-up" data-aos-delay="600" >We prioritize the security of your valuable data. Our products are built with robust security measures, ensuring the utmost protection against unauthorized access and data breaches. We employ industry-standard security protocols and continuously monitor and update our systems to keep your data safe.</p>
@@ -87,7 +87,7 @@ const Mono = () => {
   
       </div>
     </footer>
-  </>
+  </div>
   );
 }
 

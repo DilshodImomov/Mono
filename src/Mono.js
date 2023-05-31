@@ -31,7 +31,7 @@ const Mono = () => {
         <img data-aos="fade-up-right" data-aos-delay="500" className="techImage2" src={techImage2}></img>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Personal Website Development</h1>
-          <p data-aos="fade-up" data-aos-delay="0" >We create engaging and professional websites that effectively represent your business. A well-designed website serves as a powerful online presence and enhances your brand image.</p>
+          <p data-aos="fade-up" data-aos-delay="600" >We create engaging and professional websites that effectively represent your business. A well-designed website serves as a powerful online presence and enhances your brand image.</p>
         </div>
       </div>
     </section>
@@ -39,9 +39,9 @@ const Mono = () => {
       <div data-aos="slide-left" data-aos-duration="1000" className='block-left dark-blue'>
         <div className="text">
           <h1 data-aos="fade-up"  data-aos-delay="500" >Business Designing and Social Media Advertising</h1>
-          <p data-aos="fade-up" data-aos-delay="0" >Our team assists you in devising effective strategies for social media advertising, leveraging the potential of various platforms to reach your target audience and boost your business's online visibility.</p>
+          <p data-aos="fade-up" data-aos-delay="600" >Our team assists you in devising effective strategies for social media advertising, leveraging the potential of various platforms to reach your target audience and boost your business's online visibility.</p>
         </div>
-        <img data-aos="slide-up" data-aos-duration="2000" data-aos-delay="1000" className="techImage3" data-aos-offset="1" src={techImage3}></img>
+        <img data-aos="slide-up" data-aos-duration="2000" data-aos-delay="1000" className="techImage3" src={techImage3}></img>
       </div>
     </section>
     <section>
@@ -49,7 +49,7 @@ const Mono = () => {
         <img data-aos="fade-right" data-aos-delay="800" data-aos-duration="1500" className="techImage4" src={techImage4}></img>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Staff and Work Management System</h1>
-          <p data-aos="fade-up" data-aos-delay="500" >We provide customized software solutions to streamline your internal operations. Our management system eliminates the need for multiple notebooks by offering a centralized platform for staff and work management, enhancing productivity and organization within your business.</p>
+          <p data-aos="fade-up" data-aos-delay="600" >We provide customized software solutions to streamline your internal operations. Our management system eliminates the need for multiple notebooks by offering a centralized platform for staff and work management, enhancing productivity and organization within your business.</p>
         </div>
       </div>
     </section>
@@ -57,7 +57,7 @@ const Mono = () => {
       <div data-aos="slide-left" data-aos-duration="1000" className='block-left white under2'>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >High-Level Analysis</h1>
-          <p data-aos="fade-up" data-aos-delay="500" >Our analytical tools enable you to gain insights into your business's performance. We help you compare your monthly, daily, and yearly earnings with industry benchmarks, enabling you to assess your growth rate and identify areas for improvement.</p>
+          <p data-aos="fade-up" data-aos-delay="600" >Our analytical tools enable you to gain insights into your business's performance. We help you compare your monthly, daily, and yearly earnings with industry benchmarks, enabling you to assess your growth rate and identify areas for improvement.</p>
         </div>
         <img data-aos="fade-left"  data-aos-delay="800" className="analysisImg" src={analysis}></img>
       </div>
@@ -67,7 +67,7 @@ const Mono = () => {
         <img data-aos="fade-right"  data-aos-delay="800" className="analysisImg" src={prediction}></img>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Recommendation and Predictive Analysis</h1>
-          <p data-aos="fade-up" data-aos-delay="500" >Leveraging the power of artificial intelligence (AI), we analyze your business's historical data to generate valuable recommendations and predict future outcomes. Our AI algorithms help you optimize your business models and make data-driven decisions to take your business to the next level.</p>
+          <p data-aos="fade-up" data-aos-delay="600" >Leveraging the power of artificial intelligence (AI), we analyze your business's historical data to generate valuable recommendations and predict future outcomes. Our AI algorithms help you optimize your business models and make data-driven decisions to take your business to the next level.</p>
         </div>
       </div>
     </section>
@@ -75,7 +75,7 @@ const Mono = () => {
       <div data-aos="slide-left" data-aos-duration="1000" className='block-left white'>
         <div className="text">
           <h1 data-aos="fade-up" data-aos-delay="500" >Data Security</h1>
-          <p data-aos="fade-up" data-aos-delay="500" >We prioritize the security of your valuable data. Our products are built with robust security measures, ensuring the utmost protection against unauthorized access and data breaches. We employ industry-standard security protocols and continuously monitor and update our systems to keep your data safe.</p>
+          <p data-aos="fade-up" data-aos-delay="600" >We prioritize the security of your valuable data. Our products are built with robust security measures, ensuring the utmost protection against unauthorized access and data breaches. We employ industry-standard security protocols and continuously monitor and update our systems to keep your data safe.</p>
         </div>
         <img data-aos="fade-left"  data-aos-delay="800" className="security" src={security}></img>
       </div>

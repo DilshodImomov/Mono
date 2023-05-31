@@ -110,6 +110,7 @@ header .body {
 .techImage4 {
     width: auto;
     height: 700px;
+    margin-bottom: -200px;
 }
 
 .analysisImg {
@@ -135,7 +136,7 @@ header .body {
     margin-top: -100px;
 }
 
-footer .block {
+.block {
     margin-top: 100px;
     margin-bottom: 0;
     padding: 20px 50px;
@@ -156,13 +157,15 @@ footer .block {
     transition-duration: 1s;
 }
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1124px) {
-    section {
-        min-width: 500px;
+    header .body, .block-left, .block-right, .block {
+        padding: 10px 20px;
     }
-    header .body {
-        padding: 0px 20px;
+    .text {
+        margin-top: 0px;
+    }
+    .text h1 {
+        font-size: 2.3rem;
     }
     .techImage1, .analysisImg, .techImage4, .techImage2, .techImage3, .security {
         width: 500px;
@@ -172,21 +175,21 @@ footer .block {
 } 
 
 @media only screen and (max-width: 1000px) {
-    img {
-        min-width: 400px;
-    }
     .text h1 {
         font-size: 1.8rem;
+    }
+    .text {
+        margin-top: 0px;
     }
     .techImage1, .analysisImg, .techImage4, .techImage2, .techImage3, .security {
         width: 400px;
         height: auto;
     }
-} 
-@media only screen and (max-width: 767px) {
-    section {
-        min-height: 500px;
+    .techImage2 {
+        margin-top: -100px;
     }
+} 
+@media only screen and (max-width: 768px) {
     section, header {
         margin-bottom: 2rem;
     }
@@ -197,6 +200,9 @@ footer .block {
     }
     .body h1 {
         font-size: 2.75rem;
+    }
+    .text h1 {
+        font-size: 1.8rem;
     }
     .text {
         width: 100%;
@@ -218,7 +224,7 @@ footer .block {
     .techImage2 {
         width: 500px;
         height: auto;
-        margin-top: -50px;
+        margin-top: -30px;
     }
     .techImage3 {
         width: 500px;
@@ -247,21 +253,18 @@ footer .block {
 
 }
 @media only screen and (max-width: 500px) {
-    section {
-        min-height: 500px;
-    }
     .text h1 {
         font-size: 1.8rem;
     }
     .techImage1, .analysisImg, .techImage4, .techImage2, .techImage3, .security {
-        width: 400px;
+        width: 390px;
         height: auto;
+    }
+    .techImage4 {
+        margin-top: -70px;
     }
 } 
 @media only screen and (max-width: 400px) {
-    section {
-        min-height: 500px;
-    }
     .text h1 {
         font-size: 1.5rem;
     }
@@ -273,10 +276,14 @@ footer .block {
         height: auto;
     }
     .analysisImg, .security {
-        width: 270px;
+        width: 290px;
         height: auto;
     }
     .techImage2 {
         margin-top: 0;
+    }
+    .techImage4 {
+        margin-top: -40px;
+        margin-bottom: -100px;
     }
 } 

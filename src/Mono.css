@@ -89,10 +89,10 @@ header .body {
     background-image: linear-gradient(to bottom right, rgb(30, 41, 59), rgb(34, 54, 84));
 }
 
-.dark-blue > .text p {
+.dark-blue > .text p, h4 {
     color: rgb(148 163 184);    
 }
-.dark-blue > .text h1 {
+.dark-blue > h1 {
     color: white;
 }
 
@@ -154,11 +154,14 @@ header .body {
     color: rgb(148 163 184); 
 }
 
-[data-aos=slideLeft] {
-    transform:translateX(100%);
-  }
-[data-aos=slideLeft].aos-animate {
-    transition-duration: 1s;
+.about-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners {
+    color: white;
+    margin-right: 50px;
 }
 
 @media only screen and (max-width: 1124px) {
@@ -266,6 +269,9 @@ header .body {
     }
     .techImage4 {
         margin-top: -70px;
+    }
+    .about-us {
+        flex-direction: column;
     }
 } 
 @media only screen and (max-width: 400px) {

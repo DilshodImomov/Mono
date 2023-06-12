@@ -9,6 +9,7 @@ import techImage4 from "./images/tech-image-4C.png";
 import analysis from "./images/analysis3C.png";
 import prediction from "./images/analysis4C.png";
 import security from "./images/securityC.png";
+import colins from "./images/colins.png"
 import { useEffect } from "react";
 
 const Mono = () => {
@@ -41,7 +42,7 @@ const Mono = () => {
           <h1 data-aos="fade-up"  data-aos-delay="500" >Business Designing and Social Media Advertising</h1>
           <p data-aos="fade-up" data-aos-delay="600" >Our team assists you in devising effective strategies for social media advertising, leveraging the potential of various platforms to reach your target audience and boost your business's online visibility.</p>
         </div>
-        <img data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" className="techImage3" src={techImage3}></img>
+        <img data-aos="slide-up" data-aos-duration="2000" data-aos-delay="1000" className="techImage3" src={techImage3}></img>
       </div>
     </section>
     <section>
@@ -83,6 +84,17 @@ const Mono = () => {
     <footer>
       <div className='block dark-blue'>
           <p >At Mono Technologies, we are dedicated to accelerating your business through innovative technology solutions. Our team is committed to delivering exceptional results and providing reliable support to ensure your success. Contact us today to transform your business and unlock its full potential.</p>
+          <div className="about-us">
+            <div className="contact-us">
+              <h4>Contact us:</h4>
+              <p>Phone: +992 938 79 17 79</p>
+              <p>Mail: shuhratabduqodirov5@gmail.com</p>
+            </div>
+            <div className="partners">
+              <h4>Our Partners</h4>
+              <h2>COLIN'S</h2>
+            </div>
+          </div>
           <p >© 2023 Mono Technologies. All rights reserved. | Privacy Policy | Terms of Service</p>
   
       </div>

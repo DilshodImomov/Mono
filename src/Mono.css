@@ -40,8 +40,8 @@ header .body {
     color: rgb(191, 219, 254)
 }
 .techImage1 {
-    width: auto;
     height: 600px;
+    width: 603px;
     margin-bottom: -70px;
 
 }
@@ -92,7 +92,7 @@ header .body {
 .dark-blue > .text p, h4 {
     color: rgb(148 163 184);    
 }
-.dark-blue > h1 {
+.dark-blue > h1, .dark-blue > h2 {
     color: white;
 }
 
@@ -130,7 +130,7 @@ header .body {
 .blue > .text p {
     color: rgb(191, 219, 254);
 }
-.blue > .text h1 {
+.blue > .text h1, .blue > h2 {
     color: white;
 }
 
@@ -157,11 +157,52 @@ header .body {
 .about-us {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .partners {
     color: white;
     margin-right: 50px;
+}
+
+.our-partners {
+    width: 100%;
+}
+
+.our-partners h1 {
+    font-size: 2.75rem;
+}
+.companies {
+    margin-top: 50px;
+    padding-right: 10px;
+    width: 100%;
+    display: flex;
+    font-size: 1.3rem;
+    /* justify-content: space-around; */
+    overflow: hidden;
+    transition: ease-in-out;
+}
+
+.card {
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: ease-in-out;
+    box-shadow: 0px 0px 10px #d0d4d7;
+}
+
+.fade-out {
+    opacity: 0;
+    width: 0;
+}
+
+.card:nth-child(1) {
+    transition: width 0.5s, opacity 0.5s;
 }
 
 @media only screen and (max-width: 1124px) {

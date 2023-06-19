@@ -8,7 +8,7 @@ import techImage4 from "./images/tech-image-4C.png";
 import analysis from "./images/analysis3C.png";
 import prediction from "./images/analysis4C.png";
 import security from "./images/securityC.png";
-import partners from "./images/partners.png"
+import partners from "./images/partnersImg3.png"
 import { useEffect, useRef } from "react";
 
 const Mono = () => {

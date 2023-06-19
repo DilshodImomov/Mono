@@ -8,9 +8,18 @@ body {
     position: absolute;
     z-index: 9999999;
     color: rgb(191, 219, 254);
-    right: 20px;
+    right: 10px;
     top: 20px;
     cursor: pointer;
+}
+.engRus {
+    height: 40px;
+    width: auto;
+    border-radius: 10px;
+    opacity: 50%;
+}
+.engRus:hover {
+    opacity: 100%;
 }
 .wrapper {
     width: 100%;

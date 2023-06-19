@@ -9,6 +9,7 @@ import analysis from "./images/analysis3C.png";
 import prediction from "./images/analysis4C.png";
 import security from "./images/securityC.png";
 import partners from "./images/partnersImg3.png"
+import engRus from "./images/engrus2.png"
 import { useEffect, useRef, useState } from "react";
 
 const Mono = () => {
@@ -46,7 +47,7 @@ const Mono = () => {
   return (
     <div className="wrapper">
     <header>
-      <span className="language" onClick={changeLanguage}>En/Ru</span>
+      <span className="language" onClick={changeLanguage}><img className="engRus" src={engRus} /></span>
       <div data-aos="fade-left" data-aos-duration="1000" className='body'>
         <div className="text">
           <h1 data-aos="fade-up" >{headings["block1"][lang]}</h1>

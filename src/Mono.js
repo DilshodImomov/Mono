@@ -47,7 +47,7 @@ const Mono = () => {
   return (
     <div className="wrapper">
     <header>
-      <span className="language" onClick={changeLanguage}><img className="engRus" src={engRus} /></span>
+      <span data-aos="fade-left" className="language" onClick={changeLanguage}><img className="engRus" src={engRus} /></span>
       <div data-aos="fade-left" data-aos-duration="1000" className='body'>
         <div className="text">
           <h1 data-aos="fade-up" >{headings["block1"][lang]}</h1>

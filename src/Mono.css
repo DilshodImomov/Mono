@@ -265,6 +265,10 @@ header .body {
 } 
 
 @media only screen and (max-width: 1000px) {
+    .engRus {
+        height: 30px;
+        width: auto;
+    }
     .text h1 {
         font-size: 1.8rem;
     }
@@ -290,6 +294,7 @@ header .body {
     }
 } 
 @media only screen and (max-width: 768px) {
+
     section, header {
         margin-bottom: 2rem;
     }

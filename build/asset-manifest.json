@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad12e1d1.css",
-    "main.js": "/static/js/main.5848ddfa.js",
-    "static/media/main.png": "/static/media/main.653301c0d976d6951a31.png",
-    "static/media/tech-image-4.png": "/static/media/tech-image-4.833bc01e2685cd857aac.png",
-    "static/media/security.png": "/static/media/security.299091d6c5ea75229eed.png",
-    "static/media/tech-image-3.webp": "/static/media/tech-image-3.c907c54a2e7aa11d9f11.webp",
-    "static/media/analysis3.png": "/static/media/analysis3.8037e2eda3bc646f9429.png",
-    "static/media/tech-image-2.png": "/static/media/tech-image-2.45dcf4d4345e5c943c55.png",
-    "static/media/analysis4.png": "/static/media/analysis4.d069fb21b9e54849205d.png",
+    "main.css": "/static/css/main.f3f7abd1.css",
+    "main.js": "/static/js/main.a88d9aaa.js",
+    "static/media/mainC.png": "/static/media/mainC.3b8c49e93bd89b061169.png",
+    "static/media/tech-image-4C.png": "/static/media/tech-image-4C.c5c26bebb0a409bfceab.png",
+    "static/media/securityC.png": "/static/media/securityC.dc44bd1725a606081e4f.png",
+    "static/media/partnersImg3.png": "/static/media/partnersImg3.db18a52f626f02b03e2a.png",
+    "static/media/analysis3C.png": "/static/media/analysis3C.9772b04139d600b137cb.png",
+    "static/media/analysis4C.png": "/static/media/analysis4C.d4babca68125ff8a7907.png",
+    "static/media/tech-image-3C.webp": "/static/media/tech-image-3C.cdae9b4217fa2d0131b4.webp",
+    "static/media/tech-image-2C.png": "/static/media/tech-image-2C.5a7820374b3e5fcea56e.png",
     "index.html": "/index.html",
-    "main.ad12e1d1.css.map": "/static/css/main.ad12e1d1.css.map",
-    "main.5848ddfa.js.map": "/static/js/main.5848ddfa.js.map"
+    "main.f3f7abd1.css.map": "/static/css/main.f3f7abd1.css.map",
+    "main.a88d9aaa.js.map": "/static/js/main.a88d9aaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad12e1d1.css",
-    "static/js/main.5848ddfa.js"
+    "static/css/main.f3f7abd1.css",
+    "static/js/main.a88d9aaa.js"
   ]
 }

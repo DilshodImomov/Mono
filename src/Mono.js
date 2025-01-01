@@ -139,7 +139,7 @@ const Mono = () => {
               <p>Mail: shuhratabduqodirov5@gmail.com</p>
             </div>
           </div>
-          <p >© 2023 Mono Technologies. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p >© 2025 Mono Technologies. All rights reserved.</p>
   
       </div>
     </footer>
